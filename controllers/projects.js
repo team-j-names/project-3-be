@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+
 // import project model
 const Project = require('../models/project');
 // GET all projects
@@ -36,4 +37,5 @@ router.delete('/:id', (req, res, next) => {
 		.then(() => res.sendStatus(204))
 		.catch(next);
 });
+
 module.exports = router;
