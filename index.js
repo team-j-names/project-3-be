@@ -6,11 +6,8 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(cors())
 
-// const projectControllers = require('./controllers/projects')
-// app.use('/projects', projectControllers)
-
-// const userControllers = require('./controllers/users')
-// app.use('/users', userControllers)
+const projectControllers = require('./controllers/projects')
+app.use('/projects', projectControllers)
 
 const port = process.env.PORT || 3000
 
