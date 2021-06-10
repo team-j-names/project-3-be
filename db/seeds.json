@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Trivia Game",
+        "description": "In this trivia game, the player will have 10 questions with 4 choice answers. The player will have the option to pick ONE answer per question. Finish all 10 questions to view the answers. The player will then have to option to reset the questions and start a new trivia game.",
+        "author": "Jaclyn Blinstrubas",
+        "links": "",
+        "Github": "https://jaclynblinstrubas.github.io/trivia-game/",
+        "Heroku": ""
+    },
+    {
+        "title": "Holiday Calendar",
+        "description": "My app allows the user to view the holiday/s during the month and date on which they selected. Once the user chooses a month and day, the page will display the name/s of the holiday/s, which country it/they is/are celebrated in, the day on which it/they is/are celebrated, and a short description of the holiday/s (if available).",
+        "author": "Jaclyn Blinstrubas",
+        "links": "https://jaclyn-blinstrubas.medium.com/project-2-holiday-calendar-6c266a166cff",
+        "Github": "https://github.com/JaclynBlinstrubas/holiday-calendar",
+        "Heroku": "https://jbl-holiday-calendar.herokuapp.com/"
+    },
+    {
+        "title": "Simon",
+        "description": "The player tests their memory by remembering the order at which each color flashes. As the player correctly inputs the order, the length of the memory test increases.",
+        "author": "Jonathan Lee",
+        "links": "",
+        "Github": "https://jba11er32.github.io/Simon/",
+        "Heroku": ""
+    },
+    {
+        "title": "Clear Your Fridgeec",
+        "description": "A React App that helps the user find recipes based off the ingredients that are submitted",
+        "author": "Jonathan Lee",
+        "links": "https://dev.to/jba11er32/i-made-my-first-app-using-react-7hp",
+        "Github": "https://github.com/jba11er32/Clear-Your-Fridge",
+        "Heroku": "https://guarded-depths-36952.herokuapp.com/"
+    }
+]
