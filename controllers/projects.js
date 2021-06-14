@@ -30,6 +30,7 @@ router.put('/:id', (req, res, next) => {
 		.then((project) => res.json(project))
 		.catch(next);
 });
+
 // DELETE a project
 router.delete('/:id', (req, res, next) => {
 	const id = req.params.id;
