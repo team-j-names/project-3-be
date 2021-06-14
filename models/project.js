@@ -8,6 +8,9 @@ const ProjectSchema = new Schema({
 	links: String,
 	Github: String,
 	Heroku: String,
+	imageURL: String,
+	technologies: String,
+	likes: Number
 });
 
 const Project = mongoose.model('Project', ProjectSchema);

@@ -3,9 +3,12 @@
         "title": "Trivia Game",
         "description": "In this trivia game, the player will have 10 questions with 4 choice answers. The player will have the option to pick ONE answer per question. Finish all 10 questions to view the answers. The player will then have to option to reset the questions and start a new trivia game.",
         "author": "Jaclyn Blinstrubas",
-        "links": "",
-        "Github": "https://jaclynblinstrubas.github.io/trivia-game/",
-        "Heroku": ""
+        "links": "https://jaclynblinstrubas.github.io/trivia-game/",
+        "Github": "https://github.com/JaclynBlinstrubas/trivia-game",
+        "Heroku": "",
+        "imageURL": "",
+        "technologies": "",
+        "likes": ""
     },
     {
         "title": "Holiday Calendar",
@@ -13,15 +16,21 @@
         "author": "Jaclyn Blinstrubas",
         "links": "https://jaclyn-blinstrubas.medium.com/project-2-holiday-calendar-6c266a166cff",
         "Github": "https://github.com/JaclynBlinstrubas/holiday-calendar",
-        "Heroku": "https://jbl-holiday-calendar.herokuapp.com/"
+        "Heroku": "https://jbl-holiday-calendar.herokuapp.com/",
+        "imageURL": "",
+        "technologies": "",
+        "likes": ""
     },
     {
         "title": "Simon",
         "description": "The player tests their memory by remembering the order at which each color flashes. As the player correctly inputs the order, the length of the memory test increases.",
         "author": "Jonathan Lee",
-        "links": "",
-        "Github": "https://jba11er32.github.io/Simon/",
-        "Heroku": ""
+        "links": "https://jba11er32.github.io/Simon/",
+        "Github": "https://github.com/jba11er32/Simon",
+        "Heroku": "",
+        "imageURL": "",
+        "technologies": "",
+        "likes": ""
     },
     {
         "title": "Clear Your Fridge",
@@ -29,6 +38,53 @@
         "author": "Jonathan Lee",
         "links": "https://dev.to/jba11er32/i-made-my-first-app-using-react-7hp",
         "Github": "https://github.com/jba11er32/Clear-Your-Fridge",
-        "Heroku": "https://guarded-depths-36952.herokuapp.com/"
-    }
+        "Heroku": "https://guarded-depths-36952.herokuapp.com/",
+        "imageURL": "",
+        "technologies": "",
+        "likes": ""
+    },
+    {
+        "title": "Trivia",
+        "description": "The idea is to have a trivia game where questions on a selected subject are presented and the user selects the correct answer from multiple choices. After each question is answered the score is updated until all questions have been answered.",
+        "author": "Jim Ogana",
+        "links": "https://jimogg.github.io/Trivia/",
+        "Github": "https://github.com/jimogg/Trivia",
+        "Heroku": "",
+        "imageURL": "",
+        "technologies": "",
+        "likes": ""
+    },
+    {
+        "title": "Smartie Auto",
+        "description": "A website which displays automotive recall information that the user can access by VIN number or vehicle's make/model/year.",
+        "author": "Jim Ogana",
+        "links": "https://youtu.be/F8wAtfzLK7k",
+        "Github": "https://github.com/jimogg/smartie-auto",
+        "Heroku": "https://smartie-auto.herokuapp.com/",
+        "imageURL": "",
+        "technologies": "",
+        "likes": ""
+    },
+    {
+        "title": "Which Water Are You?",
+        "description": "Trivia Game",
+        "author": "Jarod Torres",
+        "links": "https://twiggytea.github.io/project-one-trivia/",
+        "Github": "https://github.com/TwiggyTea/project-one-trivia",
+        "Heroku": "",
+        "imageURL": "",
+        "technologies": "",
+        "likes": ""
+    },
+    {
+        "title": "BOTW Risk/Reward Game",
+        "description": "This is a game about managing risk and reward! Your goal is to gain as many points as you can by defeating monsters, without losing all of your hearts.",
+        "author": "Jarod Torres",
+        "links": "https://www.youtube.com/watch?v=kPx-2AOQoAs",
+        "Github": "https://github.com/TwiggyTea/botw-risk-reward-game",
+        "Heroku": "https://botw-risk-reward.herokuapp.com/",
+        "imageURL": "",
+        "technologies": "",
+        "likes": ""
+    } 
 ]
