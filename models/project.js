@@ -10,6 +10,7 @@ const ProjectSchema = new Schema({
 	description: String,
 	likes: Number,
 	technologies: String,
+	imageUrl: String,
 });
 
 const Project = mongoose.model('Project', ProjectSchema);

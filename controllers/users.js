@@ -8,7 +8,7 @@ const { createUserToken } = require('../middleware/auth')
 router.post('/signup', async (req, res, next) => {
     try {
         const email = req.body.email;
-        const password = await bcrypt.hash(req.body.password, 412);
+        const password = await bcrypt.hash(req.body.password, 11);
         const user = await User.create({ email, password });
         res.status(201).json(user);
     } catch (error) {
@@ -16,7 +16,7 @@ router.post('/signup', async (req, res, next) => {
     }
 })
 
-router.post('/singin', (req, res, next) => {
+router.post('/signin', (req, res, next) => {
     User.findOne({ email: req.body.email })
         .then((user) => createUserToken(req, user))
         .then((token) => res.json({ token }))

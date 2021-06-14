@@ -3,40 +3,44 @@
 		"title": "Trivia Game",
 		"author": "Jaclyn Blinstrubas",
 		"links": "",
-		"githubURL": "https://jaclynblinstrubas.github.io/trivia-game/",
-		"deployedURL": "",
+		"githubUrl": "https://jaclynblinstrubas.github.io/trivia-game/",
+		"deployedUrl": "",
 		"description": "In this trivia game, the player will have 10 questions with 4 choice answers. The player will have the option to pick ONE answer per question. Finish all 10 questions to view the answers. The player will then have to option to reset the questions and start a new trivia game.",
 		"likes": 0,
-		"technologies": "React"
+		"technologies": "React",
+		"imageUrl": ""
 	},
 	{
 		"title": "Holiday Calendar",
 		"description": "My app allows the user to view the holiday/s during the month and date on which they selected. Once the user chooses a month and day, the page will display the name/s of the holiday/s, which country it/they is/are celebrated in, the day on which it/they is/are celebrated, and a short description of the holiday/s (if available).",
 		"author": "Jaclyn Blinstrubas",
 		"links": "https://jaclyn-blinstrubas.medium.com/project-2-holiday-calendar-6c266a166cff",
-		"githubURL": "https://github.com/JaclynBlinstrubas/holiday-calendar",
-		"deployedURL": "https://jbl-holiday-calendar.herokuapp.com/",
+		"githubUrl": "https://github.com/JaclynBlinstrubas/holiday-calendar",
+		"deployedUrl": "https://jbl-holiday-calendar.herokuapp.com/",
 		"likes": 0,
-		"technologies": "React"
+		"technologies": "React",
+		"imageUrl": ""
 	},
 	{
 		"title": "Simon",
 		"description": "The player tests their memory by remembering the order at which each color flashes. As the player correctly inputs the order, the length of the memory test increases.",
 		"author": "Jonathan Lee",
 		"links": "",
-		"githubURL": "https://jba11er32.github.io/Simon/",
-		"deployedURL": "",
+		"githubUrl": "https://jba11er32.github.io/Simon/",
+		"deployedUrl": "",
 		"likes": 0,
-		"technologies": "React"
+		"technologies": "React",
+		"imageUrl": ""
 	},
 	{
 		"title": "Clear Your Fridge",
 		"author": "Jonathan Lee",
 		"links": "https://dev.to/jba11er32/i-made-my-first-app-using-react-7hp",
-		"githubURL": "https://github.com/jba11er32/Clear-Your-Fridge",
-		"deployedURL": "https://guarded-depths-36952.herokuapp.com/",
+		"githubUrl": "https://github.com/jba11er32/Clear-Your-Fridge",
+		"deployedUrl": "https://guarded-depths-36952.herokuapp.com/",
 		"description": "A React App that helps the user find recipes based off the ingredients that are submitted",
 		"likes": 0,
-		"technologies": "React"
+		"technologies": "React",
+		"imageUrl": ""
 	}
 ]
