@@ -3,11 +3,13 @@ const Schema = mongoose.Schema;
 
 const ProjectSchema = new Schema({
 	title: String,
-	description: String,
 	author: String,
 	links: String,
-	Github: String,
-	Heroku: String,
+	githubURL: String,
+	deployedURL: String,
+	description: String,
+	likes: Number,
+	technologies: String,
 });
 
 const Project = mongoose.model('Project', ProjectSchema);
