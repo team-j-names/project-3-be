@@ -1,4 +1,4 @@
-const express('express');
+const express = require('express');
 const router = express.Router();
 const bcrypt = require('bcrypt');
 
@@ -23,4 +23,4 @@ router.post('/signin', (req, res, next) => {
         .catch(next);
 });
 
-modulex.exports = router;
+module.exports = router;
