@@ -3,12 +3,12 @@ const Schema = mongoose.Schema;
 
 const ProjectSchema = new Schema(
 	{
-		title: String,
+		title: { type: String, required: true },
 		author: String,
 		links: String,
-		githubURL: String,
-		deployedURL: String,
-		description: String,
+		githubUrl: String,
+		deployedUrl: String,
+		description: { type: String, required: true },
 		likes: Number,
 		technologies: String,
 		imageUrl: String,
