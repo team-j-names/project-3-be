@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+const { requireToken } = require('../middleware/auth')
 
 // import project model
 const Project = require('../models/project');
@@ -17,13 +18,16 @@ router.get('/:id', (req, res, next) => {
 		.catch(next);
 });
 
-router.post('/', (req, res, next) => {
-	Project.create(req.body)
+router.post('/', requireToken, (req, res, next) => {
+	console.log(req.body)
+	const owner = req.user._id
+	Project.create({...req.body, owner})
+		// .populate('owner')
 		.then((project) => res.json(project))
 		.catch(next);
 });
 
-router.put('/:id', (req, res, next) => {
+router.put('/:id', requireToken, (req, res, next) => {
 	const id = req.params.id;
 	const updated = req.body;
 	Project.findOneAndUpdate({ _id: id }, updated, { new: true })
@@ -31,7 +35,7 @@ router.put('/:id', (req, res, next) => {
 		.catch(next);
 });
 
-router.delete('/:id', (req, res, next) => {
+router.delete('/:id', requireToken, (req, res, next) => {
 	const id = req.params.id;
 	Project.findByIdAndDelete(id)
 		.then(() => res.sendStatus(204))

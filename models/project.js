@@ -8,17 +8,19 @@ const ProjectSchema = new Schema(
 		links: String,
 		githubUrl: String,
 		deployedUrl: String,
+		additionalUrl: String,
 		description: { type: String, required: true },
 		likes: Number,
 		technologies: String,
 		imageUrl: String,
-	},
-	{
 		owner: {
 			type: mongoose.Schema.Types.ObjectId,
 			ref: 'user',
 			required: true,
-		},
+		}
+	},
+	{
+		timestamps: true
 	}
 );
 
